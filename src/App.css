@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+}
+body{
+  overflow-wrap: break-word;
+}
+
+.users{
+  background-color:rgb(253, 120, 120);
+  padding:10%;
+  margin: 10%;
+}
+
+.sender{
+  background-color:rgb(52, 191, 255);
+  border-radius:20px;
+  margin:5% 5% 5% 25%;
+  padding:2%;
+}
+
+.receiver{
+  background-color:rgba(126, 126, 126, 0.548);
+  border-radius: 20px;
+  margin:5% 25% 5% 5%;
+  padding:2%;
+}
+.sender:last-of-type{
+  margin-bottom: 15%;
+}
+.receiver:last-of-type{
+  margin-bottom: 15%;
+}
+
+
+#sendTextInputField{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+#sendTextInputField input{
+  width:80%;
+  border-radius: 25px;
+  height: 4vh;
+  margin:1%;
+  outline-color:black;
+  font-size: 15px;
+}
+#sendTextInputField button{
+  border-radius: 10px;
+  height: 5vh;
+  width:15%;
+}
+#sendTextInputField button:active{
+  background-color: rgb(104, 232, 255);
+}
