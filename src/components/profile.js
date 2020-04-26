@@ -1,8 +1,8 @@
 import React,{useState, useEffect} from 'react';
 import axiosWithAuth from './axiosWIthAuth';
 import io from "socket.io-client"
-const socket = io(process.env.CONNECTION || 'http://localhost:5000');
-
+// const socket = io(process.env.CONNECTION || 'http://localhost:5000');
+const socket=io("https://otchatappbe.herokuapp.com/")
 function Profile(props){
     const [conversation,setConversation]=useState([]);
     const [sendMessage,setsendMessage]=useState({
