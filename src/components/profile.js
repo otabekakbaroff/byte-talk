@@ -50,7 +50,7 @@ function Profile(props){
         e.preventDefault();
 
         setConversation([...conversation,{...sendMessage,name:`${localStorage.getItem('name')}`,senderOrReceiver:"sender"}]);
-        socket.emit("convo", [...conversation,{...sendMessage,name:`${localStorage.getItem('name')}`,senderOrReceiver:"sender"}])
+        // socket.emit("convo", [...conversation,{...sendMessage,name:`${localStorage.getItem('name')}`,senderOrReceiver:"sender"}])
         setsendMessage({
             ...sendMessage,
             dateDiggits:Date.now(),
