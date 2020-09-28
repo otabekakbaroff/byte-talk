@@ -1,4 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Welcome to byte-talk
+
+##### byte-talk is a real-time messaging app
+
+##### Check out live site here: https://byte-talk.netlify.app
+
+
+
 
 ## Available Scripts
 
